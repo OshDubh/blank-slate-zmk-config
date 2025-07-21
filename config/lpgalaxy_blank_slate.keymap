@@ -23,7 +23,7 @@
             #binding-cells = <0>;
             bindings = <&kp LG(LS(N4))>;
         };
-        
+
         // M1: Cmd+Shift+5 (Mac screen record)
         macro_m1: macro_m1 {
             compatible = "zmk,behavior-macro";
@@ -31,7 +31,7 @@
             #binding-cells = <0>;
             bindings = <&kp LG(LS(N5))>;
         };
-        
+
         // M2: Cmd+Shift+2
         macro_m2: macro_m2 {
             compatible = "zmk,behavior-macro";
@@ -39,7 +39,7 @@
             #binding-cells = <0>;
             bindings = <&kp LG(LS(N2))>;
         };
-        
+
         // M3: Cmd+[
         macro_m3: macro_m3 {
             compatible = "zmk,behavior-macro";
@@ -47,7 +47,7 @@
             #binding-cells = <0>;
             bindings = <&kp LG(LBKT)>;
         };
-        
+
         // M4: Alt+Shift+Down
         macro_m4: macro_m4 {
             compatible = "zmk,behavior-macro";
@@ -55,7 +55,7 @@
             #binding-cells = <0>;
             bindings = <&kp LA(LS(DOWN))>;
         };
-        
+
         // M5: Alt+Shift+Up
         macro_m5: macro_m5 {
             compatible = "zmk,behavior-macro";
@@ -63,7 +63,7 @@
             #binding-cells = <0>;
             bindings = <&kp LA(LS(UP))>;
         };
-        
+
         // M6: Cmd+]
         macro_m6: macro_m6 {
             compatible = "zmk,behavior-macro";
