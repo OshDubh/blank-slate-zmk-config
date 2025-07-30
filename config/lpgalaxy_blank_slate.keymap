@@ -103,10 +103,10 @@
         layer_2 {
             label = "Layer2";
             bindings = <
- &kp TILDE     &kp EXCL     &kp AT       &kp HASH     &kp DLLR      &kp PRCNT    &kp CARET   &kp AMPS       &kp STAR     &kp LPAR     &kp RPAR     &kp BKSP
- &trans        &kp LA(F1)   &kp LA(F2)   &kp LA(F3)   &kp LA(F4)    &kp LA(F5)   &kp LA(F6)  &kp UNDER      &kp PLUS     &kp LBRC     &kp RBRC     &kp PIPE
- &trans        &kp LA(F7)   &kp LA(F8)   &kp LA(F9)   &kp LA(F10)   &kp LA(F11)  &kp LA(F12) &kp LA(N3)       &trans       &trans       &trans       &trans
- &trans        &trans       &trans       &trans       &trans              &trans             &trans         &trans       &trans       &trans       &trans
+ &kp TILDE     &kp EXCL     &kp AT       &kp HASH     &kp DLLR      &kp PRCNT    &kp CARET   &kp AMPS       &kp STAR         &kp LPAR     &kp RPAR         &kp BKSP
+ &trans        &kp LA(F1)   &kp LA(F2)   &kp LA(F3)   &kp LA(F4)    &kp LA(F5)   &kp LA(F6)  &kp UNDER      &kp PLUS         &kp LBRC     &kp RBRC         &kp PIPE
+ &trans        &kp LA(F7)   &kp LA(F8)   &kp LA(F9)   &kp LA(F10)   &kp LA(F11)  &kp LA(F12) &kp LA(N3)     &kp LS(COMMA)    &kp LS(DOT)  &kp LS(FSLH)     &trans
+ &trans        &trans       &trans       &trans       &trans              &trans             &trans         &trans           &trans       &trans           &trans
             >;
         };
 
