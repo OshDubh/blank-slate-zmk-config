@@ -114,8 +114,8 @@
             label = "Layer3";
             bindings = <
  &macro_m0  &kp LC(N1)   &kp LC(N2)   &kp LC(N3)   &kp LC(N4)    &kp LC(N5)   &kp LC(N6)  &kp LC(N7)     &kp LC(N8)   &kp LC(N9)   &kp LC(N0)   &bt BT_CLR_ALL
- &macro_m1  &kp LC(LEFT) &kp LC(RIGHT) &trans      &trans        &trans       &trans      &trans         &trans       &trans       &trans       &trans
- &macro_m2  &trans       &trans       &trans       &trans        &trans       &trans      &trans         &trans       &trans       &trans       &trans
+ &macro_m1  &kp LC(LEFT) &kp LC(RIGHT) &trans      &trans        &trans       &trans      &trans         &trans       &trans       &bt BT_SEL 0       &bt BT_SEL 1
+ &macro_m2  &trans       &trans       &trans       &trans        &trans       &trans      &trans         &trans       &trans       &bt BT_SEL 2       &bt BT_SEL 3
  &trans     &trans       &trans       &trans       &trans             &trans                   &trans         &macro_m3    &macro_m4    &macro_m5    &macro_m6
             >;
         };
